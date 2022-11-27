@@ -1,0 +1,55 @@
+  .main-card{
+    margin: auto;
+    width: 87%;
+    font-family: fa fa-camera-retro fa-5x;
+    color: black;
+  }
+  
+  .header{
+    font-size: larger;
+    background-color: #9a95f9;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .header-img{
+    height: 45px;
+    width: 50px;
+    border-radius: 7px;
+  }
+  
+  .card-bodyhome{
+    height: fit-content;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+  }
+  
+  .card-desc{
+    height: 75px;
+    text-align:center;
+    padding: 5px 10px;
+    font-size: 17px;
+    
+  }
+  
+  .card-button{
+    align-items:flex-end;
+    justify-content: right;
+    display: flex;
+  }
+  
+  
+  .card:hover{
+    /* background-image: linear-gradient(to left, #2d00f7,#ff0291); */
+    transform: scale(1.03);
+    border: none;
+    border-radius: 20px 0px;
+    transition: width 2s, height 4s;
+  
+  }
